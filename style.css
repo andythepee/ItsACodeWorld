@@ -1,0 +1,280 @@
+h1 {
+    text-align: center;
+    image-resolution: 400px;
+    border-bottom: 6px solid#141c24;
+    font-weight: bold;
+    color: #474343;
+}
+.text-block {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: rgb(36, 238, 29);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Aboutmesec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #aa5e20;
+    color: #000000;
+}
+main section div {
+    image-orientation: center;
+}
+.About-Me {
+    margin-right: 20px;
+
+}
+.title {
+    text-align: center;
+    border-right: 6px solid#141c24;
+    font-weight: bold;
+    color: #474343;
+    height: 150px;
+    width: 300px;
+    border-bottom: none;
+    font-size: 40px;
+    padding: 25px;
+    padding-top: 100px;
+}
+.subbio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imgbio{
+    height: 200px;
+    width: 150px;
+}
+
+.myworksec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: turquoise;
+    border-radius: 5px;
+}
+h2 {
+    background-color: beige;
+    border: 2px solid black;
+    image-orientation: 0turn;
+}
+h3 {
+    text-align: center;
+    border-bottom: 6px solid#000000;
+}
+figure img a{   
+    vertical-align: middle;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+} 
+
+div p {
+    float: none;
+ 
+}
+nav a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px
+}
+
+a:hover {
+    opacity: (0.5);
+    color: rgb(9, 201, 201);
+}
+img {
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    width: 100%;   
+}
+.Container1 {
+    height: 300px;
+    width: 1125px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    border: #1b4d80;
+    padding-top: 100px;
+    
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas: 
+    "a b"
+    "a b"
+    "c d"
+    "c d";
+}   
+
+.text-block1 {
+    background-color: lightseagreen;
+    color: rgb(231, 19, 221);
+    border: #ac1111 2px;
+    border-style: double;
+    height: fit-content;
+    
+}
+.text-block2 {
+    background-color: lightseagreen;
+    color: rgb(231, 19, 221);
+    border: #000000 2px;
+    border-style: double;
+}    
+.text-block3 {
+    background-color: lightseagreen;
+    color: rgb(231, 19, 221);
+    border: #000000 2px;
+    border-style: double;
+    text-align: center;
+    
+} 
+.text-block4 {
+    background-color: lightseagreen;
+    color: rgb(231, 19, 221);
+    border: #000000 2px;
+    border-style: double;
+    text-align: center;
+    font-size: large;
+} 
+.text-block5 {
+    background-color: lightseagreen;
+    color: rgb(231, 19, 221);
+    border: #000000 2px;
+    border-style: double;
+    text-align: center;
+    font-size: large;
+} 
+.title2 {
+    text-align: center;
+    border-right: 6px solid#141c24;
+    font-weight: bold;
+    color: #474343;
+    height: 700px;
+    width: 200px;
+    border-bottom: none;
+    font-size: 40px;
+    margin-right: 350px;
+    
+}
+.Project1 {
+    display: flex;
+    width: 350px;
+}
+.Project1:hover{
+    border: 2px rgb(212, 218, 203);
+    opacity: 0.5;
+}
+
+.secondary {
+    inline-size: auto;
+}
+
+.container {
+    position: relative;
+    display: grid;
+}
+
+.h4 { 
+
+    text-align: center;
+    background-color: aqua;
+}
+figcaption {
+    text-align: center;
+}
+
+
+.PRJ2 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 6px #1b4d80;
+    position: relative;
+    text-align: center;
+    grid-area: a;
+    padding-inline: 395px;
+   padding-bottom: 50px;
+}
+.PRJ2:hover{
+    border: 2px rgb(212, 218, 203);
+    opacity: 0.5;
+}
+.PRJ3 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border-radius: 6px #1b4d80;
+    grid-area: b;  
+}
+.PRJ3:hover{
+    border: 2px rgb(212, 218, 203);
+    opacity: 0.5;
+}
+.PRJ4 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: 5px #1b4d80;
+    grid-area: c;
+    padding-inline: 395px;
+    padding-bottom: 50px;
+}
+
+.PRJ5 {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    border: #1b4d80;
+    grid-area: d;
+}
+
+footer {
+    color: #000000;
+    background-color: #141c24;
+}
+Footer div aside {
+    text-align: center;
+    text-emphasis-style: bold;
+
+}
+h9{
+    text-align: center;
+    border-bottom: 6px solid#cf1010;
+    font-weight: bold;
+    color: #cf1010;
+    font-size: 30px;
+
+}
